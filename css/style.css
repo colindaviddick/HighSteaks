@@ -1,17 +1,19 @@
 .carousel-item {
   height: 100vh;
   min-height: 350px;
-  background: no-repeat center center scroll;
+  background: no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  text-align: center;
 }
 .carousel-caption {
   display: flex;
   flex: auto;
-  background-color: rgba(0, 0, 0, 0.4);
+  background-color: rgba(0, 0, 0, 0.6);
   margin: 0px;
+  padding: 20px;
 }
 .logoDiv {
   text-align: center;
@@ -36,10 +38,8 @@
 }
 .bodycontainer {
   border-radius: 20px;
-  background-color: #A5A086;
+  background-color: #a5a086;
   padding: 20px;
-  min-width: 600px;
-  max-width: 90%;
   box-shadow: 0px 0px 20px 0px black;
 }
 .carousel-inner {
@@ -71,10 +71,14 @@ aside {
   margin-right: 5px;
 }
 .asideiconlarge {
+  margin-top: 10px;
+  margin-left: 10px;
   border-radius: 20px;
   padding: 3px;
-  background-color: red;
+  background-color: #ECEFE9;
   font-size: xx-large;
+  box-shadow: 0px 2px 10px 0px black;
+
 }
 .asideheading {
   font-style: normal;
@@ -89,7 +93,7 @@ aside {
 .flex-row {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: left;
 }
 small {
   color: white;
